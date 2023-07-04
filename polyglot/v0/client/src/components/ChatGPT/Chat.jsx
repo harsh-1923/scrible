@@ -2,7 +2,7 @@ import React from "react";
 
 const Chat = () => {
   async function sendPromptToChatGPT(prompt) {
-    const apiKey = "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"; // Replace with your OpenAI API key
+    const apiKey = ""; // Replace with your OpenAI API key
     try {
       const response = await axios.post(
         "https://api.openai.com/v1/engines/text-davinci-003/completions",
