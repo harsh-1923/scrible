@@ -1,0 +1,17 @@
+.inpt {
+  border: none;
+  width: 70vw;
+  font-family: "Open Sans";
+  height: 90px;
+  background-color: beige;
+  border-radius: 4px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+}
